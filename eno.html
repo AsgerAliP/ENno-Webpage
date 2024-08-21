@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eNno</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./eno.css">
+  <link rel="icon" href="./images/favicon.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <!-- <header> -->
+  <header>
+    <!-- navbar -->
+    <section class="navbar bg-white">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary nav-shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">eNno</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav nav-margin">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Drop Down
+                  <i class="fa-solid fa-angle-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                  <li><a class="dropdown-item" href="#">Deep drop Down</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                  <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="nav-item-1">
+              <button type="button" class="btn btn-primary">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- navbar -->
+  </header>
+  <!-- </header> -->
+  <!-- banner -->
+  <section class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 banner-p1">
+          <h1>Elegant and creative solutions</h1>
+          <h4>We are team of talented designers making websites with Bootstrap</h4>
+          <div class="d-flex">
+            <a href="#about" class="btn-hero1 link">Get Started</a>
+            <a href="#about" class="btn-hero2 link"> <i class="fa-regular fa-circle-play"></i> <span>Watch
+                Video</span></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="./images/hero-img.png" alt="" width="100%" class="animated">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner -->
+  <!-- <main> -->
+  <main>
+    <!-- cards -->
+    <section class="cards">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 p-1">
+            <div class="icon_box">
+              <div class="icn">
+                <i class="bi bi-laptop"></i>
+              </div>
+              <h4>
+                <a href="#" class="link hvr">Lorem Ipsum</a>
+              </h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                occaecati cupiditate non provident</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-1">
+            <div class="icon_box">
+              <div class="icn">
+                <i class="bi bi-card-checklist"></i>
+              </div>
+              <h4>
+                <a href="#" class="link hvr">Dolor Sitema</a>
+              </h4>
+              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat tarad limino ata</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 p-1">
+            <div class="icon_box">
+              <div class="icn">
+                <i class="bi bi-clipboard-data"></i>
+              </div>
+              <h4>
+                <a href="#" class="link hvr">Sed ut perspiciatis</a>
+              </h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cards -->
+    <!-- about -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="./images/about.png" alt="" width="100%">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>Voluptatem dignissimos provident quasi corporis voluptates</h3>
+            <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul type="none">
+              <li><i class="bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat
+              </li>
+              <li><i class="bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate
+                velit</li>
+              <li><i class="bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda</li>
+            </ul>
+            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <!-- counts -->
+    <section class="counts pt-3">
+      <div class="container number">
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <center>
+              <span>232</span>
+              <p>Clients</p>
+            </center>
+          </div>
+          <div class="col-lg-3 col-6">
+            <center>
+              <span>521</span>
+              <p>Projects</p>
+            </center>
+          </div>
+          <div class="col-lg-3 col-6">
+            <center>
+              <span>1463</span>
+              <p>Hours Of Support</p>
+            </center>
+          </div>
+          <div class="col-lg-3 col-6">
+            <center>
+              <span>15</span>
+              <p>Hard Workers</p>
+            </center>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counts -->
+    <!-- services -->
+    <section class="Services">
+      <div class="container">
+        <div class="Services-Title">
+          <h1 class="back">SERVICES</h1>
+          <h2 class="front">SERVICES</h2>
+          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt itm">
+            <div class="box-s">
+              <div class="icon-s"> <i class="bx bxl-dribbble"></i>
+              </div>
+              <h4 class="color-h">Lorem Ipsum</h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt itm">
+            <div class="box-s">
+              <div class="icon-s"> <i class="bx bx-file"></i>
+              </div>
+              <h4 class="color-h">Sed ut perspiciatis</h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt itm">
+            <div class="box-s">
+              <div class="icon-s"> <i class=" bx bx-tachometer"></i>
+              </div>
+              <h4 class="color-h">Magni Dolores</h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt">
+            <div class="box-s">
+              <div class="icon-s"> <i class="bx bx-world"></i>
+              </div>
+              <h4 class="color-h">Nemo Enim</h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt">
+            <div class="box-s">
+              <div class="icon-s"> <i class="bx bx-slideshow"></i>
+              </div>
+              <h4 class="color-h ">Dele cardo</h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt">
+            <div class="box-s">
+              <div class="icon-s"> <i class="bx bx-arch"></i>
+              </div>
+              <h4 class="color-h">Divera don</h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <!-- portfolio -->
+    <section class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="Services-Title">
+              <h1 class="back">PORTFOLIO</h1>
+              <h2 class="front">PORTFOLIO</h2>
+              <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+            </div>
+            <div class="col-12 col-lg-12 d-flex justify-content-center">
+              <button class="btn btn-small Active" data-toggle="portfilter" data-target="all">
+                All
+              </button>
+              <button class="btn btn-small Deactive" data-toggle="portfilter" data-target="app">
+                APP
+              </button>
+              <button class="btn btn-small Deactive" data-toggle="portfilter" data-target="card">
+                CARD
+              </button>
+              <button class="btn btn-small Deactive" data-toggle="portfilter" data-target="web">
+                WEB
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row tab-content" id="all">
+          <div class="col-12 col-lg-4">
+            <div class="row img1 py-3" data-tag="app">
+              <div class="img">
+                <img src="./images/portfolio/portfolio-1.jpg" width="100%">
+              </div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail d-block">
+                    <h5>Detail</h5>
+                    <p>app</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row img2 py-3" data-tag="app">
+              <div class="img"><img src="./images/portfolio/portfolio-6.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>App3</h5>
+                    <p>app</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="row img3 py-3" data-tag="web">
+              <div class="img"><img src="./images/portfolio/portfolio-2.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>Web3</h5>
+                    <p>web</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row img4 py-3" data-tag="web">
+              <div class="img"><img src="./images/portfolio/portfolio-5.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>Web2</h5>
+                    <p>web</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row img5 py-3" data-tag="web">
+              <div class="img"><img src="./images/portfolio/portfolio-9.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>Web3</h5>
+                    <p>Web</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="row img6 py-3" data-tag="card">
+              <div class="img"><img src="./images/portfolio/portfolio-3.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>card2</h5>
+                    <p>card</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row img7 py-3" data-tag="card">
+              <div class="img"><img src="./images/portfolio/portfolio-4.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>card2</h5>
+                    <p>card</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row img8 py-3 " data-tag="card">
+              <div class="img"><img src="./images/portfolio/portfolio-7.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>card2</h5>
+                    <p>card</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row img9 py-3" data-tag="web">
+              <div class="img"><img src="./images/portfolio/portfolio-8.jpg" width="100%"></div>
+              <div class="pop">
+                <div class="d-flex justify-content-between p-2">
+                  <div class="Detail">
+                    <h5>web</h5>
+                    <p>web2</p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-link"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+    <!-- testmonials -->
+    <section class="Testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="Services-Title">
+            <h1 class="back">TESTMONIALS</h1>
+            <h2 class="front">TESTMONIALS</h2>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <div class="container main-box">
+            <div class="qute">
+              <p><i class="fa-solid fa-quote-left"></i>&nbsp;&nbsp;Proin iaculis purus consequat sem cure digni ssim
+                donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et.
+                Maecen aliquam, risus at semper.
+                &nbsp;&nbsp;<i class="fa-solid fa-quote-right"></i></p>
+            </div>
+            <div class="profile">
+              <img src="images/testimonials/testimonials-1.jpg" alt="">
+              <h4>Saul Goodman</h4>
+              <p>Ceo&Founder</p>
+            </div>
+          </div>
+          <div class="container main-box">
+            <div class="qute">
+              <p><i class="fa-solid fa-quote-left"></i>&nbsp;&nbsp; Export tempor illum tamen malis malis eram quae
+                irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster
+                fugiat irure amet legam anim culpa.
+                &nbsp;&nbsp;<i class="fa-solid fa-quote-right"></i></p>
+            </div>
+            <div class="profile">
+              <img src="images/testimonials/testimonials-2.jpg" alt="">
+              <h4>Sara Wilsson</h4>
+              <p>Designer</p>
+            </div>
+          </div>
+          <div class="container main-box">
+            <div class="qute">
+              <p><i class="fa-solid fa-quote-left"></i>&nbsp;&nbsp;Enim nisi quem export duis labore cillum quae magna
+                enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore
+                quis sint minim.
+                &nbsp;&nbsp;<i class="fa-solid fa-quote-right"></i></p>
+            </div>
+            <div class="profile">
+              <img src="images/testimonials/testimonials-3.jpg" alt="">
+              <h4>Jena Karlis</h4>
+              <p>Store Owner</p>
+            </div>
+          </div>
+          <div class="container main-box">
+            <div class="qute">
+              <p><i class="fa-solid fa-quote-left"></i>&nbsp;&nbsp;Fugiat enim eram quae cillum dolore dolor amet nulla
+                culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit
+                fore quem dolore labore illum veniam.
+                &nbsp;&nbsp;<i class="fa-solid fa-quote-right"></i></p>
+            </div>
+            <div class="profile">
+              <img src="images/testimonials/testimonials-4.jpg" alt="">
+              <h4>Matt Brandon</h4>
+              <p>Freelancer</p>
+            </div>
+          </div>
+          <div class="container main-box">
+            <div class="qute">
+              <p><i class="fa-solid fa-quote-left"></i>&nbsp;&nbsp;Quis quorum aliqua sint quem legam fore sunt eram
+                irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat
+                legam esse veniam culpa fore nisi cillum quid.
+                &nbsp;&nbsp;<i class="fa-solid fa-quote-right"></i></p>
+            </div>
+            <div class="profile">
+              <img src="images/testimonials/testimonials-5.jpg" alt="">
+              <h4>John Larson</h4>
+              <p>Entrepreneur</p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- testmonials -->
+    <!-- call to action -->
+    <section class="CTA">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div class="text-center action">
+              <h3>Call To Action</h3>
+              <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.
+              </p>
+              <a class="cta-btn" href=""> Call To Action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- call to action -->
+    <!-- team -->
+    <section class="Team">
+      <div class="container">
+        <div class="row">
+          <div class="Services-Title">
+            <h1 class="back">TEAM</h1>
+            <h2 class="front">TEAM</h2>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="box">
+              <img src="images/team/team-1.jpg" width="100%">
+              <div class="head">
+                <h4>Walter White</h4>
+                <i>Chief Executive Officer</i>
+                <p>Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut
+                  aut aut</p>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-x-twitter me"></i>
+                <i class="fa-brands fa-facebook me"></i>
+                <i class="fa-brands fa-instagram me"></i>
+                <i class="fa-brands fa-linkedin me"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="box">
+              <img src="images/team/team-2.jpg" width="100%">
+              <div class="head">
+                <h4>Sarah Jhinson</h4>
+                <i>Product Manager</i>
+                <p>Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum
+                  temporibus</p>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="box">
+              <img src="images/team/team-3.jpg" width="100%">
+              <div class="head">
+                <h4>William Anderson</h4>
+                <i>CTO</i>
+                <p>Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                </p>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- team -->
+    <!-- contact -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="Services-Title ">
+            <h1 class="back">CONTACT</h1>
+            <h2 class="front">CONTACT</h2>
+            <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          </div>
+        </div>
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-5">
+                <div class="details">
+                  <div class="row sep">
+                    <div class="col-12 col-md-2 icon-box">
+                      <div class="icns">
+                        <i class="fa-solid fa-location-dot"></i>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-10 ">
+                      <h4>Location:</h4>
+                      <p class="del-p">A108 Adam Street, New York, NY 535022</p>
+                    </div>
+                  </div>
+                  <div class="row sep">
+                    <div class="col-12 col-md-2 icon-box">
+                      <div class="icns">
+                        <i class="fa-regular fa-envelope"></i>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-10">
+                      <h4>Email:</h4>
+                      <p class="del-p">info@example.com</p>
+                    </div>
+                  </div>
+                  <div class="row sep">
+                    <div class="col-12 col-md-2 icon-box">
+                      <div class="icns">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-10">
+                      <h4>Call:</h4>
+                      <p class="del-p">+1 5589 55488 55s</p>
+                    </div>
+                  </div>
+                  <div class="row map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d3915.8388434551116!2d75.97333203568996!3d11.050706662893312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m3!3m2!1d11.050738299999999!2d75.9760357!4m0!5e0!3m2!1sen!2sin!4v1721668789423!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-7">
+                <div class="details1">
+                  <form>
+                    <div class="row">
+                      <div class="col-12 col-md-6">
+                        <label for="">Your Name</label>
+                        <input class="form-control" type="text">
+                      </div>
+                      <div class="col-12 col-md-6">
+                        <label for="">Your Name</label>
+                        <input class="form-control" type="text">
+                      </div>
+                      <div class="col-12 col-md-12 py-3">
+                        <label class="">Subject</label>
+                        <input class="form-control" type="text">
+                      </div>
+                      <div class="col-12 col-md-12 py3">
+                        <label for="">Message</label>
+                        <textarea class="form-control" rows="8"></textarea>
+                      </div>
+                      <div class="col-12 col-md-12 text-center py-4">
+                        <a class="cta-btn2" href="">Send Message</a>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- contact -->
+  </main>
+  <!-- <main> -->
+  <!-- <footer> -->
+  </footer> 
+  <footer>
+    <footer>
+      <div class="Footer">
+      <div class="footer">
+        <div class="container">
+          <div class="row  justify-content-center">
+            <div class="col-lg-6">
+              <h3>eNno</h3>
+              <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
+            </div>
+          </div>
+  
+          <div class="row justify-content-center area">
+            <div class="col-lg-6">
+              <form action="" method="post">
+                <input type="email" name="email" placeholder="Enter your Email">
+                <input type="submit" value="Subscribe">
+              </form>
+            </div>
+          </div>
+  
+          <div class="icn-link">
+            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          </div>
+  
+        </div>
+      </div>
+  
+      <div class="container line">
+        <div class="col-lg-12">
+        <div class="copyright">
+          © Copyright <strong><span>eNno</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="#" class="link ali">ALI</a>
+        </div>
+      </div></div>
+    </div>
+    </footer>
+  </footer>
+  <!-- <footer> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <script>
+    !function (d) { var c = "portfilter"; var b = function (e) { this.$element = d(e); this.stuff = d("[data-tag]"); this.target = this.$element.data("target") || "" }; b.prototype.filter = function (g) { var e = [], f = this.target; this.stuff.fadeOut("fast").promise().done(function () { d(this).each(function () { if (d(this).data("tag") == f || f == "all") { e.push(this) } }); d(e).show() }) }; var a = d.fn[c]; d.fn[c] = function (e) { return this.each(function () { var g = d(this), f = g.data(c); if (!f) { g.data(c, (f = new b(this))) } if (e == "filter") { f.filter() } }) }; d.fn[c].defaults = {}; d.fn[c].Constructor = b; d.fn[c].noConflict = function () { d.fn[c] = a; return this }; d(document).on("click.portfilter.data-api", "[data-toggle^=portfilter]", function (f) { d(this).portfilter("filter") }) }(window.jQuery);
+  </script>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      autoplay: true,
+      autoplayHoverPause: true,
+      dots: true,
+      loop: true,
+      responsive: {
+        0: {
+          items: 2,
+        },
+        768: {
+          items: 3,
+        },
+        992: {
+          dotsEach: 1,
+          items: 3
+        },
+        1400: {
+          dotsEach: 1,
+          items: 3
+        }
+      }
+    })
+  </script>
+
+</body>
+
+</html>
